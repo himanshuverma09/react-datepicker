@@ -593,7 +593,7 @@ export default class DatePicker extends React.Component {
 
     if (this.props.withPortal) {
       return (
-        <div>
+        <div style={{width: '100%'}}>
           {!this.props.inline ? (
             <div className="react-datepicker__input-container">
               {this.renderDateInput()}
